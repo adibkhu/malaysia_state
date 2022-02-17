@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/malaysia_state/static/css/main.ecfe2e8e.css",
-    "main.js": "/malaysia_state/static/js/main.21f230c3.js",
+    "main.css": "/malaysia_state/static/css/main.0c7e2fa2.css",
+    "main.js": "/malaysia_state/static/js/main.d2e2bb74.js",
     "static/media/logo.png": "/malaysia_state/static/media/logo.b1a6510cc63182911982.png",
     "index.html": "/malaysia_state/index.html",
-    "main.ecfe2e8e.css.map": "/malaysia_state/static/css/main.ecfe2e8e.css.map",
-    "main.21f230c3.js.map": "/malaysia_state/static/js/main.21f230c3.js.map"
+    "main.0c7e2fa2.css.map": "/malaysia_state/static/css/main.0c7e2fa2.css.map",
+    "main.d2e2bb74.js.map": "/malaysia_state/static/js/main.d2e2bb74.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecfe2e8e.css",
-    "static/js/main.21f230c3.js"
+    "static/css/main.0c7e2fa2.css",
+    "static/js/main.d2e2bb74.js"
   ]
 }
