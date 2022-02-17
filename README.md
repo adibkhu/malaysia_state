@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Malaysia 🇲🇾
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website about states in Malaysia.
 
-## Available Scripts
+All information are obtained from Wikipedia.
 
-In the project directory, you can run:
+Im learning about API, and i love programming
 
-### `npm start`
+Please let me know on what can i improve
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+11 states and 2 federal territories are located on the Malay Peninsula, collectively called Peninsular Malaysia (Semenanjung Malaysia) or West Malaysia. 2 states are on the island of Borneo, and the remaining federal territory consists of islands offshore of Borneo; they are collectively referred to as East Malaysia or Malaysian Borneo. Out of the 13 states in Malaysia, 9 are monarchies.
 
-### `npm test`
+Thank you Jianliew for API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://github.com/JianLoong/malaysia-api
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [React.js](https://reactjs.org/)
+* [axios](https://axios-http.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# List of End Points
 
-### `npm run eject`
+The current base url is [https://jianliew.me/malaysia-api](https://jianliew.me/malaysia-api)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| State / Federal Territories | End Point                      | Status |                                                                        |
+| --------------------------- | ------------------------------ | ------ | ---------------------------------------------------------------------- |
+| All                         | /state/v1/all.json             | x      | [Test](https://jianliew.me/malaysia-api/state/v1/all.json)             |
+| Johor                       | /state/v1/johor.json           | x      | [Test](https://jianliew.me/malaysia-api/state/v1/johor.json)           |
+| Kedah                       | /state/v1/kedah.json           | x      | [Test](https://jianliew.me/malaysia-api/state/v1/kedah.json)           |
+| Kelantan                    | /state/v1/kelantan.json        | x      | [Test](https://jianliew.me/malaysia-api/state/v1/kelantan.json)        |
+| Malacca                     | /state/v1/malacca.json         | x      | [Test](https://jianliew.me/malaysia-api/state/v1/malacca.json)         |
+| Negeri Sembilan             | /state/v1/negeri_sembilan.json | x      | [Test](https://jianliew.me/malaysia-api/state/v1/negeri_sembilan.json) |
+| Pahang                      | /state/v1/pahang.json          | x      | [Test](https://jianliew.me/malaysia-api/state/v1/pahang.json)          |
+| Penang                      | /state/v1/penang.json          | x      | [Test](https://jianliew.me/malaysia-api/state/v1/penang.json)          |
+| Perak                       | /state/v1/perak.json           | x      | [Test](https://jianliew.me/malaysia-api/state/v1/perak.json)           |
+| Perlis                      | /state/v1/perlis.json          | x      | [Test](https://jianliew.me/malaysia-api/state/v1/perlis.json)          |
+| Sabah                       | /state/v1/sabah.json           | x      | [Test](https://jianliew.me/malaysia-api/state/v1/sabah.json)           |
+| Sarawak                     | /state/v1/sarawak.json         | x      | [Test](https://jianliew.me/malaysia-api/state/v1/sarawak.json)         |
+| Selangor                    | /state/v1/selangor.json        | x      | [Test](https://jianliew.me/malaysia-api/state/v1/selangor.json)        |
+| Terengganu                  | /state/v1/terengganu.json      | x      | [Test](https://jianliew.me/malaysia-api/state/v1/kelantan.json)        |
+| Kuala Lumpur                | /state/v1/kuala_lumpur.json    | x      | [Test](https://jianliew.me/malaysia-api/state/v1/kuala_lumpur.json)    |
+| Labuan                      | /state/v1/labuan.json          | x      | [Test](https://jianliew.me/malaysia-api/state/v1/labuan.json)          |
+| Putrajaya                   | /state/v1/putrajaya.json       | x      | [Test](https://jianliew.me/malaysia-api/state/v1/putrajaya.json)       |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_x_ indicates that the entry is completed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Usage Example
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+const baseURL = "https://jianliew.me/malaysia-api/state/v1/all.json";
 
-## Learn More
+const NegeriM = () => {
+  const [negeri, setNegeri] = useState();
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  useEffect(() => {
+    axios.get(baseURL).then((response) => {
+      setNegeri(response.data);
+    //   console.log(response.data);
+    });
+  }, []);
+```
