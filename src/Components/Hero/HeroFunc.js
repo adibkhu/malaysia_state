@@ -18,8 +18,8 @@ const HeroFunc = () => {
 
       <main>
         <div className="max-w-10xl mx-auto py-6 sm:px-6 lg:px-8">
-          <div className="p-10">
-            <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-9">
+          <div className="p-5">
+            <div className="p-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-9">
               <NegeriM />
             </div>
           </div>

@@ -21,8 +21,8 @@ const NegeriM = () => {
     <>
       {negeri?.map((neg, index) => (
         <div key={index}>
-          <div className=" static max-w-2/4 overflow-hidden shadow-lg shadow-black rounded-lg hover:shadow-purple hover:text-white hover:bg-purple4 hover:scale-105 duration-500">
-            <div className="px-6 py-4">
+          <div className="static max-w-2/4 overflow-hidden shadow-lg shadow-black rounded-lg hover:shadow-purple hover:text-white hover:bg-purple4 hover:scale-105 duration-500">
+            <div className="px-4 py-4 ">
               <div className="font-bold text-xl mb-2 hover:underline-offset-4">
                 {neg.state}
               </div>
